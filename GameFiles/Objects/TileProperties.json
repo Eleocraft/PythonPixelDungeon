@@ -1,0 +1,19 @@
+{
+    "bgColisions" : [
+        false,
+        false,
+        false,
+        true,
+        false
+    ],
+    "objColisions" : [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+    ]
+}

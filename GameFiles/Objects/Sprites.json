@@ -1,0 +1,61 @@
+{
+    "bgTiles" : [
+        "boden1.png",
+        "boden2.png",
+        "boden3.png",
+        "wand1.png",
+        "Tuer.png"
+    ],
+    "objTiles" : [
+        "Barrel.png",
+        "TreppeS.png",
+        "Fass.png",
+        "chest.png",
+        "openChest.png",
+        "TreppeUnten.png",
+        "Grabstein.png",
+        "Kiste.png",
+        "SpiderSpawnPoint.png",
+        "ZombieSpawnPoint.png",
+        "SkelettSpawnPoint.png",
+        "BossSpawnPoint.png"
+    ],
+    "gameObjects" : [
+        "ritter.png",
+        "spinneL.png",
+        "BoSS.png",
+        "SkelettR.png",
+        "zombie.png",
+        "ritter(rechts).png",
+        "spinneR.png",
+        "spinneOben.png",
+        "spinneUnten.png",
+        "zombieR.png",
+        "skelettL.png",
+        "BoSS(links).png"
+    ],
+    "ItemFrames" : [
+        "ItemFrame.png",
+        "ItemFrame2.png"
+    ],
+    "Swords" : [
+        "schwert.png",
+        "schwert2.png",
+        "schwert3.png"
+    ],
+    "Armors" : [
+        "Ruestung.png",
+        "Ruestung2.png",
+        "Ruestung3.png"
+    ],
+    "Potions" : [
+        "Staerketrank.png",
+        "Healtrank.png",
+        "Ruestungstrank.png"
+    ],
+    "Rings" : [
+        "Ring1.png",
+        "Ring2.png",
+        "Ring3.png"
+    ]
+}

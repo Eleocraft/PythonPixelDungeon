@@ -14,8 +14,8 @@ class main():
 
         # Initializing variables
         background_Color = (0, 0, 0)
-        displayResolutionX = 600
-        displayResolutionY = 600
+        displayResolutionX = 1920
+        displayResolutionY = 1080
 
         # Initializing Pygame display
         self.display = pg.display.set_mode((displayResolutionX, displayResolutionY))
@@ -37,15 +37,15 @@ class main():
         self.player = pl.Player(self, self.display, self.playerSpawnPos.x, self.playerSpawnPos.y, self.tileMap)
 
         # Spawning Enemys
-        for i in range(len(self.enemySpawnPoints)):
-            if (self.enemyTypes[i] == "Spider"):
-                self.enemys.append(sp.Spider(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
-            elif (self.enemyTypes[i] == "Zombie"):
-                self.enemys.append(zo.Zombie(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
-            elif (self.enemyTypes[i] == "Skelett"):
-                self.enemys.append(sk.Skelett(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
-            elif (self.enemyTypes[i] == "Boss"):
-                self.enemys.append(bo.Boss(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
+        #for i in range(len(self.enemySpawnPoints)):
+        #    if (self.enemyTypes[i] == "Spider"):
+        #        self.enemys.append(sp.Spider(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
+        #    elif (self.enemyTypes[i] == "Zombie"):
+        #        self.enemys.append(zo.Zombie(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
+        #    elif (self.enemyTypes[i] == "Skelett"):
+        #        self.enemys.append(sk.Skelett(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
+        #    elif (self.enemyTypes[i] == "Boss"):
+        #        self.enemys.append(bo.Boss(self, self.display, self.enemySpawnPoints[i][0], self.enemySpawnPoints[i][1], self.tileMap, self.player))
 
     
         # Main gameloop
@@ -86,7 +86,7 @@ class main():
             self.player.Draw()
             for i in self.enemys:
                 i.Draw()
-            self.player.inventory.Draw()
+            #self.player.inventory.Draw()
             pg.display.update()
 
             # clock für FixedUpdate

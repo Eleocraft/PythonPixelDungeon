@@ -10,7 +10,7 @@ class TileMap():
     mapSizeY = 150
     offsetX = 0
     offsetY = 0
-    tileSizePx = 10
+    tileSizePx = 40
     DoorTile = 5
     WallTile = 4
     ChestTile = 4

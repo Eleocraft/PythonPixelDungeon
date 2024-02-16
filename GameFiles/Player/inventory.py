@@ -3,7 +3,7 @@ import Core.saveAndLoad as SAL
 
 class inventory():
     invX = 50
-    invY = 500
+    invY = 1000
     def __init__(self, display):
         self.display = display
         self.sword = 0
